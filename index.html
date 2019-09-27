@@ -16,14 +16,14 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="/styles/style.css">
 
-    <title>Document</title>
+    <title>Minimum String</title>
 </head>
 
 <body class="grey lighten-1">
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark elegant-color-dark">
-            <a class="navbar-brand" href="index.html">Navbar</a>
+            <a class="navbar-brand" href="index.html">Minumum String</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -36,28 +36,28 @@
                 </ul>
             </div>
         </nav>
-        <h1 class="text-center mt-4">Title</h1>
+        <h1 class="text-center mt-4">Minimum String Calculator</h1>
     </header>
     <main class="container-fluid d-flex justify-content-center">
         <div class="row">
-            <div class="col-md-12" style="padding: 4em">
+            <div class="col-md-12" style="padding: 1em">
                 <fieldset class="mt-2">
-                    <label for="exampleForm2">Input:</label>
-                    <input type="text" id="exampleForm2" class="form-control">
+                    <label for="sring1">String 1:</label>
+                    <input type="text" id="string1" class="form-control" maxlength="40" required autofocus>
                 </fieldset>
 
                 <fieldset class="mt-2">
-                    <label for="exampleForm2">Input:</label>
-                    <input type="text" id="exampleForm2" class="form-control">
+                    <label for="string2">String 2:</label>
+                    <input type="text" id="string2" class="form-control"maxlength="40" required>
                 </fieldset>
 
                 <fieldset class="mt-2">
-                    <label for="exampleForm2">Input:</label>
-                    <input type="text" id="exampleForm2" class="form-control">
+                    <label for="string3">String 3:</label>
+                    <input type="text" id="string3" class="form-control" maxlength="40" required>
                 </fieldset>
 
                 <div class="text-center mt-4">
-                    <button type="button" class="btn btn-info light-blue">Button</button>
+                    <button type="button" class="btn btn-info light-blue" id="calculateBtn">Calculate</button>
                 </div>
             </div>
         </div>
